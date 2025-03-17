@@ -9,6 +9,11 @@
 <body>
     <!-- Hero Section with Background Image -->
     <div class="hero-section">
+        <!-- Left logo on white background -->
+        <div class="hero-logo-left">
+            <img src="images/logos/earthworks-logo.png" alt="AreandDee Logo" width="120" height="120">
+        </div>
+    
         <!-- Center image container -->
         <div class="hero-background-container">
             <img src="images/backgrounds/cyber-being2.jpg" alt="Earth from Space" class="hero-background">
@@ -25,6 +30,11 @@
                 </button>
             </div>
         </div>
+    
+        <!-- Right side - NSF logo only -->
+        <div class="nsf-container">
+            <img src="images/logos/nsf-logo.png" alt="NSF Logo" class="nsf-logo">
+        </div>
     </div>
 
     <!-- Navigation -->
@@ -34,7 +44,7 @@
             <a href="pages/team.html" class="nav-link">Our Team</a>
             <a href="pages/faqs.html" class="nav-link">FAQs</a>
             <a href="pages/code.html" class="nav-link">Software</a>
-            <a href="pages/papers.html" class="nav-link">Demos</a>
+            <a href="pages/papers.html" class="nav-link">Case Studies</a>
             <a href="pages/related.html" class="nav-link">Tools</a>
             <a href="pages/education.html" class="nav-link">Training</a>
         </div>
@@ -44,41 +54,42 @@
     <main class="main-content">
         <div class="content-container">
             <h2 class="section-title">Vision</h2>
-               Our vision is to accelerate the convergence of AI and physics-based models into a single technology ecosystem. We believe both are needed and inter-support each other, and a “grand unification” will lead to a rapid growth of scientific and engineering knowledge with benefits across several disciplines and market segments. Accelerating AI-physics convergence for our customers  by providing powerful tools and top-notch training and consulting support are the inspiring goals of AreandDee LLC. 
             <p class="vision-text">
+                Our vision is to combine world class meteorological and earth system expertise, HPC chops, and data science to supercharge the AI-driven Earth System (ES-AI) mission to your organization. Using our blend of proprietary and open source tools, we can help you fine tune AI models for mission critical applications to leveraging your proprietary data. 
             </p>
 
             <div class="focus-areas">
                 <div class="focus-item">
                     <img src="images/thumbnails/research.jpg" alt="Research" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine... reducing the time and cost of refactoring legacy codes by 10x to 100x.</h3>
-                        <p>AreandDee is tackling this challenge with a four-fold strategy.<p>
-                        <a href="pages/focus-area-1.html" class="focus-link">Learn More →</a>
+                        <h3>Imagine using state of the art ES-AI to save lives, property... and make money.</h3>
+                        <p>Many outstanding scientific issues about the connection between weather and climate stem from the representation of storm resolving scales in earth system models.<p>
+                        <p>AreandDee can help...</p>
+                        <a href="pages/focus-area-template.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
                 <div class="focus-item">
                     <img src="images/thumbnails/better-models.jpg" alt="Better Models" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine developing and testing AI models on any accelerator from your desktop.</h3>
-                        <p>AreandDee is working with our technology partner, MyTorch.ai to make it happen.</p>
-                        <a href="pages/focus-area-2.html" class="focus-link">Learn More →</a>
+                        <h3>Imagine accessing ES-AI resources that work at kilometer scales... from your desktop.</h3>
+                        <p>Working with our technology partner, MyTorch.ai it is happening...</p>
+                        <a href="pages/focus-area-template.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
                 <div class="focus-item">
                     <img src="images/thumbnails/digital-earth.jpg" alt="Faster Models" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine integrating your proprietary data with our open-source models to gain a competitive edge.</h3>
-                        <p>AreandDee can show you how...</p>
-                        <a href="pages/focus-area-3.html" class="focus-link">Learn More →</a>
+                        <h3>Imagine exploiting scalable accelerator hardware in the cloud... without the hassles.</h3>
+                        <p>Even in the cloud, setting up, maintaining and accessing resources on-demand can be challenging and expensive. AreandDee adds "secret sauce" to open source analysis and visualization tools like CREDIT, EarthWorks, UXarray, and HEALPix to create an end-end-end solution for our customers.</p>
+                        <a href="pages/focus-area-template.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
                 <div class="focus-item">
                     <img src="images/thumbnails/mentorship.jpg" alt="Training" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine receiving the training and support you need from a team of experts.</h3>
-                        <p>Creating effective digital twins requires domain experts that understand the science.</p>
-                        <a href="pages/focus-area-4.html" class="focus-link">Learn More →</a>
+                        <h3>Imagine receiving the training you succeed on ES-AI journey... from our experts.</h3>
+                        <p>EarthWorks provides support for graduate students and post docs working in one of the other three focus areas.</p>
+                        <a href="pages/focus-area-template.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
             </div>
@@ -105,8 +116,8 @@
         <div class="logo-strip-container">
             <div class="logo-strip">
                 <img src="images/logos/csu-logo.png" alt="CSU Logo" height="64" width="auto">
-                <img src="images/logos/mytorch-logo.png" alt="MyTorch.net Logo" height="64" width="auto">
-                <img src="images/logos/nvidia-logo.png" alt="NVIDIA Logo" height="64" width="auto">
+                <img src="images/logos/ncar-logo.png" alt="NCAR Logo" height="64" width="auto">
+                <img src="images/logos/nsf-logo.png" alt="NSF Logo" height="64" width="auto">
             </div>
         </div>
     </footer>

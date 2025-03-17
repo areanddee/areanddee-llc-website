@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AreandDee Demos</title>
+    <title>Software - AreandDee LLC</title>
     <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
 
         <!-- Center image container -->
         <div class="hero-background-container">
-            <img src="../images/backgrounds/cyber-being2.jpg" alt="Demos Banner" class="hero-background">
-            <h1 class="hero-title">Demos</h1>
+            <img src="../images/backgrounds/cyber-being2.jpg" alt="Code Banner" class="hero-background">
+            <h1 class="hero-title">Software</h1>
         
             <!-- Search container inside image area -->
             <div class="search-container">
@@ -35,8 +35,8 @@
             <a href="../index.html" class="nav-link">Home</a>
             <a href="team.html" class="nav-link">Our Team</a>
             <a href="faqs.html" class="nav-link">FAQs</a>
-            <a href="code.html" class="nav-link">Software</a>
-            <a href="papers.html" class="nav-link active">Demos</a>
+            <a href="code.html" class="nav-link active">Software</a>
+            <a href="papers.html" class="nav-link">Demos</a>
             <a href="related.html" class="nav-link">Tools</a>
             <a href="education.html" class="nav-link">Training</a>
         </div>
@@ -45,36 +45,30 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="content-container">
-            <h2 class="section-title">Research Papers and Case Studies</h2>
+            <h2 class="section-title">Code and Data Resources</h2>
             
-            <div class="papers-container">
-                <section class="papers-section">
-                    <h3>Published Research</h3>
-                    <div class="paper-list">
-                        <div class="paper-item">
-                            <h4>Mixed Precision in Weather and Climate Models</h4>
-                            <p class="authors">Loft, R., et al.</p>
-                            <p class="journal">Journal of Advances in Earth System Computing, 2024</p>
-                            <p class="abstract">Investigation of FP32 precision in weather and climate models, demonstrating significant performance improvements while maintaining accuracy.</p>
-                            <div class="paper-links">
-                                <a href="#" class="paper-link">Read Paper</a>
-                                <a href="#" class="paper-link">Download PDF</a>
-                            </div>
+            <div class="code-container">
+                <section class="code-section">
+                    <h3>ExaFactory (Fortran)</h3>
+                    <div class="repo-list">
+                        <div class="repo-item">
+                            <h4>Download:</h4>
+                            <p>A collection of powerful refactoring tools for legacy Fortran models</p>
+                            <a href="access coming soon!" class="repo-link" target="_blank">View Repository</a>
                         </div>
+                        <!-- Add more repositories as needed -->
                     </div>
                 </section>
 
-                <section class="papers-section">
-                    <h3>Technical Reports</h3>
-                    <div class="report-list">
-                        <div class="paper-item">
-                            <h4>Performance Analysis of FP32 in CAM</h4>
-                            <p class="authors">Technical Report Series</p>
-                            <p class="abstract">Detailed analysis of FP32 precision implementation in the Community Atmosphere Model.</p>
-                            <div class="paper-links">
-                                <a href="#" class="paper-link">View Report</a>
-                            </div>
+                <section class="code-section">
+                    <h3>Data Sets</h3>
+                    <div class="dataset-list">
+                        <div class="dataset-item">
+                            <h4>Training Data</h4>
+                            <p>Curated datasets for Earth System AI model training</p>
+                            <a href="#" class="dataset-link">Access Data</a>
                         </div>
+                        <!-- Add more datasets as needed -->
                     </div>
                 </section>
             </div>
@@ -101,8 +95,8 @@
         <div class="logo-strip-container">
             <div class="logo-strip">
                 <img src="../images/logos/csu-logo.png" alt="CSU Logo" height="64" width="auto">
-                <img src="../images/logos/mytorch-logo.png" alt="NCAR Logo" height="64" width="auto">
-                <img src="../images/logos/nvidia-logo.png" alt="NSF Logo" height="64" width="auto">
+                <img src="../images/logos/ncar-logo.png" alt="NCAR Logo" height="64" width="auto">
+                <img src="../images/logos/nsf-logo.png" alt="NSF Logo" height="64" width="auto">
             </div>
         </div>
     </footer>

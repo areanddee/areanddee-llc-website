@@ -597,3 +597,59 @@ body {
         padding: 12px;
     }
 }
+
+/* Add these styles to your main.css file */
+
+/* Better indentation for software products */
+.repo-item {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.repo-item h4 {
+    margin-bottom: 8px;
+}
+
+.repo-item p {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.coming-soon {
+    font-style: italic;
+    color: #666;
+}
+
+/* Better styling for section headers */
+.code-section h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* Add these styles to your main.css file */
+
+/* Better indentation for training resources */
+.video-item, .resource-item {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.video-item h4, .resource-item h4 {
+    margin-bottom: 5px;
+}
+
+.video-item p, .resource-item p {
+    margin-left: 15px;
+}
+
+/* Better styling for section headers */
+.training-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}

@@ -9,6 +9,11 @@
 <body>
     <!-- Hero Section with Background Image -->
     <div class="hero-section">
+        <!-- Left logo on white background -->
+        <div class="hero-logo-left">
+            <img src="../images/logos/earthworks-logo.png" alt="EarthWorks Logo" width="120" height="120">
+        </div>
+    
         <!-- Center image container -->
         <div class="hero-background-container">
             <img src="../images/backgrounds/cyber-being2.jpg" alt="Team Banner" class="hero-background">
@@ -25,6 +30,11 @@
                 </button>
             </div>
         </div>
+    
+        <!-- Right side - NSF logo only -->
+        <div class="nsf-container">
+            <img src="../images/logos/nsf-logo.png" alt="NSF Logo" class="nsf-logo">
+        </div>
     </div>
 
     <!-- Navigation -->
@@ -33,8 +43,8 @@
             <a href="../index.html" class="nav-link">Home</a>
             <a href="team.html" class="nav-link active">Our Team</a>
             <a href="faqs.html" class="nav-link">FAQs</a>
-            <a href="code.html" class="nav-link">Software</a>
-            <a href="papers.html" class="nav-link">Demos</a>
+            <a href="code.html" class="nav-link">Code and Data</a>
+            <a href="papers.html" class="nav-link">Case Studies</a>
             <a href="related.html" class="nav-link">Tools</a>
             <a href="education.html" class="nav-link">Training</a>
         </div>
@@ -152,13 +162,13 @@
                 </div>
             </div>
         </div>
-
+    
         <!-- Full-width white strip for logos -->
-        <div class="logo-strip-container">   
+        <div class="logo-strip-container">
             <div class="logo-strip">
                 <img src="../images/logos/csu-logo.png" alt="CSU Logo" height="64" width="auto">
-                <img src="../images/logos/mytorch-logo.png" alt="MyTorch.net Logo" height="64" width="auto">
-                <img src="../images/logos/nvidia-logo.png" alt="NVIDIA Logo" height="64" width="auto">
+                <img src="../images/logos/ncar-logo.png" alt="NCAR Logo" height="64" width="auto">
+                <img src="../images/logos/nsf-logo.png" alt="NSF Logo" height="64" width="auto">
             </div>
         </div>
     </footer>

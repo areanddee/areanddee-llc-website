@@ -52,32 +52,33 @@
                 <div class="focus-item">
                     <img src="images/thumbnails/research.jpg" alt="Research" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine... reducing the time and cost of refactoring legacy codes by 10x to 100x.</h3>
-                        <p>AreandDee is tackling this challenge with a four-fold strategy.<p>
+                        <h3>Imagine using state of the art ES-AI to save lives, property... and make money.</h3>
+                        <p>Many outstanding scientific issues about the connection between weather and climate stem from the representation of storm resolving scales in earth system models.<p>
+                        <p>AreandDee can help...</p>
                         <a href="pages/focus-area-1.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
                 <div class="focus-item">
                     <img src="images/thumbnails/better-models.jpg" alt="Better Models" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine developing and testing AI models on any accelerator from your desktop.</h3>
-                        <p>AreandDee is working with our technology partner, MyTorch.ai to make it happen.</p>
+                        <h3>Imagine accessing ES-AI resources that work at kilometer scales... from your desktop.</h3>
+                        <p>Working with our technology partner, MyTorch.ai it is happening...</p>
                         <a href="pages/focus-area-2.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
                 <div class="focus-item">
                     <img src="images/thumbnails/digital-earth.jpg" alt="Faster Models" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine integrating your proprietary data with our open-source models to gain a competitive edge.</h3>
-                        <p>AreandDee can show you how...</p>
+                        <h3>Imagine exploiting scalable accelerator hardware in the cloud... without the hassles.</h3>
+                        <p>Even in the cloud, setting up, maintaining and accessing resources on-demand can be challenging and expensive. AreandDee adds "secret sauce" to open source analysis and visualization tools like CREDIT, EarthWorks, UXarray, and HEALPix to create an end-end-end solution for our customers.</p>
                         <a href="pages/focus-area-3.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
                 <div class="focus-item">
                     <img src="images/thumbnails/mentorship.jpg" alt="Training" class="focus-thumbnail">
                     <div class="focus-content">
-                        <h3>Imagine receiving the training and support you need from a team of experts.</h3>
-                        <p>Creating effective digital twins requires domain experts that understand the science.</p>
+                        <h3>Imagine receiving the training you succeed on ES-AI journey... from our experts.</h3>
+                        <p>EarthWorks provides support for graduate students and post docs working in one of the other three focus areas.</p>
                         <a href="pages/focus-area-4.html" class="focus-link">Learn More →</a>
                     </div>
                 </div>
