@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - AreandDee LLC</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <!-- Hero Section with Background Image -->
+    <div class="hero-section">
+        <!-- Left logo on white background -->
+        <div class="hero-logo-left">
+            <img src="../images/logos/earthworks-logo.png" alt="EarthWorks Logo" width="120" height="120">
+        </div>
+    
+        <!-- Center image container -->
+        <div class="hero-background-container">
+            <img src="../images/backgrounds/cyber-being2.jpg" alt="FAQs Banner" class="hero-background">
+            <h1 class="hero-title">FAQs</h1>
+        
+            <!-- Search container inside image area -->
+            <div class="search-container">
+                <input type="text" id="siteSearch" class="search-input" placeholder="Search...">
+                <button onclick="searchSite()" class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Right side - NSF logo only -->
+        <div class="nsf-container">
+            <img src="../images/logos/nsf-logo.png" alt="NSF Logo" class="nsf-logo">
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="team.html" class="nav-link">Our Team</a>
+            <a href="faqs.html" class="nav-link active">FAQs</a>
+            <a href="code.html" class="nav-link">Code and Data</a>
+            <a href="papers.html" class="nav-link">Case Studies</a>
+            <a href="related.html" class="nav-link">Tools</a>
+            <a href="education.html" class="nav-link">Training</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is AreandDee LLC?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        AreandDee LLC combines world-class meteorological and earth system expertise, HPC capabilities, and data science to supercharge AI-driven Earth System (ES-AI) solutions for organizations.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What services do you offer?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        We offer ES-AI consulting, model development, training, and implementation services. Our expertise includes high-performance computing, earth system modeling, and AI/ML integration.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I work with AreandDee?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        You can work with us either as a client or join our team. For client inquiries, contact us at info@areanddee.com. For career opportunities, visit our careers page.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is the cost of your services?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Our services are tailored to meet your specific needs and budget. Please contact us to discuss your requirements and receive a customized quote.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long has AreandDee been in business?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        AreandDee LLC was founded in January 2022. The original company provided HPC and AI consulting services to University and Silicon Valley clients in HPC and AI. AreandDee is now scaling up to develop products and focused on the ES-AI space.
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .faq-container {
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+
+                .faq-item {
+                    margin-bottom: 20px;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+
+                .faq-question {
+                    width: 100%;
+                    padding: 20px;
+                    background: #f8f9fa;
+                    border: none;
+                    text-align: left;
+                    font-size: 1.2em;
+                    font-weight: 500;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .faq-question:hover {
+                    background: #e9ecef;
+                }
+
+                .faq-icon {
+                    font-size: 1.5em;
+                    transition: transform 0.3s ease;
+                }
+
+                .faq-answer {
+                    padding: 0;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: all 0.3s ease;
+                    background: white;
+                }
+
+                .faq-item.active .faq-answer {
+                    padding: 20px;
+                    max-height: 500px;
+                }
+
+                .faq-item.active .faq-icon {
+                    transform: rotate(45deg);
+                }
+            </style>
+
+            <script>
+                document.querySelectorAll('.faq-question').forEach(button => {
+                    button.addEventListener('click', () => {
+                        const faqItem = button.parentElement;
+                        faqItem.classList.toggle('active');
+                    });
+                });
+            </script>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="contact-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:contact@areanddee.com">AreandDee LLC</a></p>
+                </div>
+                <div class="funding-section">
+                    <h3>Funding</h3>
+                    <p>Supported by the National Science Foundation</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Full-width white strip for logos -->
+        <div class="logo-strip-container">
+            <div class="logo-strip">
+                <img src="../images/logos/csu-logo.png" alt="CSU Logo" height="64" width="auto">
+                <img src="../images/logos/ncar-logo.png" alt="NCAR Logo" height="64" width="auto">
+                <img src="../images/logos/nsf-logo.png" alt="NSF Logo" height="64" width="auto">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    function searchSite() {
+        const searchTerm = document.getElementById('siteSearch').value;
+        console.log('Searching for:', searchTerm);
+    }
+    </script>
+
+    <script src="/scripts/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training - AreandDee LLC</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <!-- Hero Section with Background Image -->
+    <div class="hero-section">
+        <!-- Left logo on white background -->
+        <div class="hero-logo-left">
+            <img src="../images/logos/earthworks-logo.png" alt="EarthWorks Logo" width="120" height="120">
+        </div>
+    
+        <!-- Center image container -->
+        <div class="hero-background-container">
+            <img src="../images/backgrounds/cyber-being2.jpg" alt="Training Banner" class="hero-background">
+            <h1 class="hero-title">Training</h1>
+        
+            <!-- Search container inside image area -->
+            <div class="search-container">
+                <input type="text" id="siteSearch" class="search-input" placeholder="Search...">
+                <button onclick="searchSite()" class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Right side - NSF logo only -->
+        <div class="nsf-container">
+            <img src="../images/logos/nsf-logo.png" alt="NSF Logo" class="nsf-logo">
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="team.html" class="nav-link">Our Team</a>
+            <a href="faqs.html" class="nav-link">FAQs</a>
+            <a href="code.html" class="nav-link">Code and Data</a>
+            <a href="papers.html" class="nav-link">Case Studies</a>
+            <a href="related.html" class="nav-link">Tools</a>
+            <a href="education.html" class="nav-link active">Training</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <h2 class="section-title">Educational Resources</h2>
+            
+            <div class="education-container">
+                <section class="training-section">
+                    <h3>Upcoming Workshops</h3>
+                    <div class="workshop-list">
+                        <div class="workshop-item">
+                            <h4>Introduction to Earth System AI</h4>
+                            <p>Learn the fundamentals of applying AI to Earth System modeling</p>
+                            <div class="workshop-details">
+                                <span class="date">Coming Soon</span>
+                                <a href="#" class="register-link">Register Interest</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="training-section">
+                    <h3>Online Resources</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <h4>Documentation</h4>
+                            <p>Comprehensive guides and tutorials for our tools and methodologies</p>
+                            <a href="#" class="resource-link">Access Documentation</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="contact-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:david.randall@colostate.edu">Colorado State University</a></p>
+                    <p><a href="mailto:svoelz@ucar.edu">National Center for Atmospheric Research</a></p>
+                </div>
+                <div class="funding-section">
+                    <h3>Funding</h3>
+                    <p>Supported by the National Science Foundation</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Full-width white strip for logos -->
+        <div class="logo-strip-container">
+            <div class="logo-strip">
+                <img src="../images/logos/csu-logo.png" alt="CSU Logo" height="64" width="auto">
+                <img src="../images/logos/ncar-logo.png" alt="NCAR Logo" height="64" width="auto">
+                <img src="../images/logos/nsf-logo.png" alt="NSF Logo" height="64" width="auto">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    function searchSite() {
+        const searchTerm = document.getElementById('siteSearch').value;
+        console.log('Searching for:', searchTerm);
+    }
+    </script>
+
+    <script src="/scripts/search.js"></script>
+</body>
+</html>

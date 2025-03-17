@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools - AreandDee LLC</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <!-- Hero Section with Background Image -->
+    <div class="hero-section">
+        <!-- Left logo on white background -->
+        <div class="hero-logo-left">
+            <img src="../images/logos/earthworks-logo.png" alt="EarthWorks Logo" width="120" height="120">
+        </div>
+    
+        <!-- Center image container -->
+        <div class="hero-background-container">
+            <img src="../images/backgrounds/cyber-being2.jpg" alt="Tools Banner" class="hero-background">
+            <h1 class="hero-title">Tools</h1>
+        
+            <!-- Search container inside image area -->
+            <div class="search-container">
+                <input type="text" id="siteSearch" class="search-input" placeholder="Search...">
+                <button onclick="searchSite()" class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Right side - NSF logo only -->
+        <div class="nsf-container">
+            <img src="../images/logos/nsf-logo.png" alt="NSF Logo" class="nsf-logo">
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="team.html" class="nav-link">Our Team</a>
+            <a href="faqs.html" class="nav-link">FAQs</a>
+            <a href="code.html" class="nav-link">Code and Data</a>
+            <a href="papers.html" class="nav-link">Case Studies</a>
+            <a href="related.html" class="nav-link active">Tools</a>
+            <a href="education.html" class="nav-link">Training</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <h2 class="section-title">Related Tools and Resources</h2>
+            
+            <div class="tools-container">
+                <section class="tools-section">
+                    <h3>Earth System AI Tools</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <h4>CAM-FP32</h4>
+                            <p>Community Atmosphere Model with FP32 Precision Support</p>
+                            <p class="tool-description">A modified version of CAM that supports mixed precision computation, optimizing performance while maintaining accuracy.</p>
+                            <div class="tool-links">
+                                <a href="#" class="tool-link">Documentation</a>
+                                <a href="#" class="tool-link">Download</a>
+                            </div>
+                        </div>
+                        <div class="tool-item">
+                            <h4>MyTorch.net</h4>
+                            <p>AI Model Optimization Platform</p>
+                            <p class="tool-description">A platform for optimizing AI models in earth system applications.</p>
+                            <div class="tool-links">
+                                <a href="#" class="tool-link">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tools-section">
+                    <h3>Partner Resources</h3>
+                    <div class="partner-list">
+                        <div class="tool-item">
+                            <h4>NCAR Resources</h4>
+                            <p>Access to high-performance computing resources and climate modeling tools.</p>
+                            <div class="tool-links">
+                                <a href="https://ncar.ucar.edu" class="tool-link" target="_blank">Visit NCAR</a>
+                            </div>
+                        </div>
+                        <div class="tool-item">
+                            <h4>CSU Resources</h4>
+                            <p>Academic resources and research tools from Colorado State University.</p>
+                            <div class="tool-links">
+                                <a href="https://www.colostate.edu" class="tool-link" target="_blank">Visit CSU</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="contact-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:david.randall@colostate.edu">Colorado State University</a></p>
+                    <p><a href="mailto:svoelz@ucar.edu">National Center for Atmospheric Research</a></p>
+                </div>
+                <div class="funding-section">
+                    <h3>Funding</h3>
+                    <p>Supported by the National Science Foundation</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Full-width white strip for logos -->
+        <div class="logo-strip-container">
+            <div class="logo-strip">
+                <img src="../images/logos/csu-logo.png" alt="CSU Logo" height="64" width="auto">
+                <img src="../images/logos/ncar-logo.png" alt="NCAR Logo" height="64" width="auto">
+                <img src="../images/logos/nsf-logo.png" alt="NSF Logo" height="64" width="auto">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    function searchSite() {
+        const searchTerm = document.getElementById('siteSearch').value;
+        console.log('Searching for:', searchTerm);
+    }
+    </script>
+
+    <script src="/scripts/search.js"></script>
+</body>
+</html>
