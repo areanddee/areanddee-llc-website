@@ -44,18 +44,17 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="content-container">
-            <h2 class="section-title">Focus Area Details</h2>
-            <p>Detailed information about this focus area will be added here.</p>
+            <h2 class="section-title">Accelerating the convergence of AI and Physics-based Modelling</h2>
             
             <div class="focus-detail">
                 <h3>Overview</h3>
-                <p>This is a placeholder page for focus area content. The specific content for each focus area will be developed and added later.</p>
+                <p>The physics-based models needed to validate and train their AI counterparts can become the bottleneck if they are not 1) written in a modern style; 2) parallel and scalable; and 3) accelerated. Many models have yet to achieve these goals, and for a very good reason: refactoring takes a long time, is risky, and is very expensive. For example, the DoE's ACME/E3SM project, which targeted acceleration and enhancement of ES model for running on Exascale platform has taken 10 years and had a 2023 budget of about $31M. Slow refactoring is lethal, especially in modeling systems where scientific improvements are continuously being rolled out.  </p>
                 
-                <h3>Key Objectives</h3>
+                <h3>Our Strategy</h3>
                 <ul>
-                    <li>Objective 1</li>
-                    <li>Objective 2</li>
-                    <li>Objective 3</li>
+                    <li>A Hybrid Team: Our team brings together top-notch refactoring, machine learning, and data science expertise. </li>
+                    <li>Open Source Approach:  We build off open-source tools wherever possible, such as: Community Research Earth Digital Intelligence Twin (CREDIT), the Model for Prediction Across Scales (MPAS), the EarthWorks-CESM Earth System Model, and data tools like  UXarray and HEALPix wherever possible. </li>
+                    <li>Powerful Refactoring Tools: The refactoring strategy emphasizes integrating AI assistants with powerful tools to allow humans and AIs to collaborate effectively to rapidly refactor large software models. </li> 
                 </ul>
                 
                 <h3>Current Progress</h3>
